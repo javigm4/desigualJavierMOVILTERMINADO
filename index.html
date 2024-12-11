@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diseño Responsive</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <!-- Incluye algún framework de íconos si es necesario, como FontAwesome -->
+  <link rel="stylesheet" href="estilos-exam-alumnos.css" />
+</head>
+
+<body>
+  <header>
+    <!-- Menú principal con hamburguesa -->
+    <nav id="menu-principal">
+      <input type="checkbox" id="menu-hamburger" />
+      <label for="menu-hamburger">
+        <span>&#9776;</span>
+        <!-- Ícono de hamburguesa -->
+        <span>MENÚ</span>
+      </label>
+      <ul id="menu">
+        <li><a href="#">Rebajas</a></li>
+        <li><a href="#">Mujer</a></li>
+        <li><a href="#">Hombre</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Home Decor</a></li>
+        <li><a href="#">Inspírate</a></li>
+      </ul>
+    </nav>
+
+    <!-- Logo de la cabecera -->
+    <picture id="logo-cabecera">
+      <img src="/RECURSOS/desigual-logo.png" alt="Logo de la cabecera" />
+    </picture>
+
+    <!-- Bloque de íconos -->
+    <nav id="bloque-iconos">
+      <ul>
+        <li>
+          <a href="#"><i style="
+                  background-image: url(/RECURSOS/icono-lupa.svg);
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                ">&nbsp &nbsp &nbsp</i></a>
+        </li>
+        <li>
+          <a href="#"><i style="
+                  background-image: url(/RECURSOS/icono-bolsa.svg);
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                ">&nbsp &nbsp &nbsp</i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Contenido principal -->
+  <main>
+    <!-- Artículos -->
+    <article class="item">
+      <a href="#">
+        <picture>
+          <img src="/RECURSOS/americana-blazer.jpg" alt="Producto 1" />
+        </picture>
+      </a>
+      <p>
+        <span class="precio-oferta">74,97€</span>
+        <span class="precio-sin-oferta">149,95€</span>
+      </p>
+      <h3>Americana Blazer</h3>
+    </article>
+
+    <article class="item">
+      <a href="#">
+        <picture>
+          <img src="RECURSOS/chaleco-patch.jpg" alt="Producto 2" />
+        </picture>
+      </a>
+      <p>
+        <span class="precio-oferta">39,97€</span>
+        <span class="precio-sin-oferta">79,95€</span>
+      </p>
+      <h3>Chaleco Path</h3>
+    </article>
+
+    <article class="item">
+      <a href="#">
+        <picture>
+          <img src="/RECURSOS/americana-lana.jpg" alt="Producto 1" />
+        </picture>
+      </a>
+      <p>
+        <span class="precio-oferta">79,97€</span>
+        <span class="precio-sin-oferta">169,95€</span>
+      </p>
+      <h3>Americana Lana</h3>
+    </article>
+
+    <article class="item">
+      <a href="#">
+        <picture>
+          <img src="/RECURSOS/abrigo-lorenzo.jpg" alt="Producto 1" />
+        </picture>
+      </a>
+      <p>
+        <span class="precio-oferta">85,99€</span>
+        <span class="precio-sin-oferta">159,95€</span>
+      </p>
+      <h3>Abrigo Lorenzo</h3>
+    </article>
+
+    <article class="item">
+      <a href="#">
+        <picture>
+          <img src="/RECURSOS/chaqueta-ricardo.jpg" alt="Producto 1" />
+        </picture>
+      </a>
+      <p>
+        <span class="precio-oferta">75,97€</span>
+        <span class="precio-sin-oferta">129,95€</span>
+      </p>
+      <h3>Chaqueta Ricardo</h3>
+    </article>
+    <article class="item">
+      <a href="#">
+        <picture>
+          <img src="/RECURSOS/abrigo-arka.jpg" alt="Producto 1" />
+        </picture>
+      </a>
+      <p>
+        <span class="precio-oferta">99,97€</span>
+        <span class="precio-sin-oferta">199,95€</span>
+      </p>
+      <h3>Abrigo Arka</h3>
+
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mi Sitio Web</p>
+  </footer>
+</body>
+
+</html>
